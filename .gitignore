@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+*.pyc
+.DS_Store
+# Source dataset is not bundled/licensed for redistribution.
+data/*.npz
+# Trained weights and generated inference artifacts may be large.
+outputs/*
+!outputs/.gitkeep
